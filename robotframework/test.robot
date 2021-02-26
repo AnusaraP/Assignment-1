@@ -1,5 +1,7 @@
 *** Test Cases ***
-
+${HOMEPAGE}    http://www.google.com
+${BROWSER}    chrome
+${EMPTY}
 Test Login Facebook Success Case
 	Open Browesr	https://www.facebook.com	gc
 	Input Text	id=email  pop1016-ploy@hotmail.com
